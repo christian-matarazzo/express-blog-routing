@@ -16,3 +16,5 @@ app.use('/posts', postsRouter) /* using the posts router */
 app.listen(port, () => {
     console.log(`Server avviato su http://localhost:${port}`) /* starting the server */
 })
+
+console.log("CIAO FABIO");
